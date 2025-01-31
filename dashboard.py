@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the CSV file
-df = pd.read_csv(r"C:\Users\apatelo\Pictures\Screenshots\hr_employee_data.csv")  # Ensure the file path is correct
+df = pd.read_csv('hr_employee_data.csv')  # Ensure the file path is correct
 
 # Create a simple dashboard
 st.title("HRIS Dashboard")
